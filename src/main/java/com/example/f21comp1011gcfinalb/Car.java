@@ -80,7 +80,12 @@ public class Car {
 
 
     public String toString() {
-        return String.format("%d - %s $s - $ .2%f -type(s): %s", year, brand, model, price, type);
+        return String.format("%d - %s %s - $%.2f -type(s): %s", year, brand, model, price, type);
+    }
+
+    public static void main(String[] args) {
+        Car  car = new Car(12,2020,"BMW",123.12,"x6","suv");
+        System.out.println(car);
     }
 
 }
