@@ -57,8 +57,6 @@ public class InventoryPriceController implements Initializable {
         priceRadioButton.setToggleGroup(group);
 
         priceListView.getItems().addAll(priceRanges);
-
-
         priceListView.getSelectionModel().selectedItemProperty().addListener((obd, old, selectedRange)-> {
 
             if(selectedRange != null){
@@ -77,6 +75,8 @@ public class InventoryPriceController implements Initializable {
                 }
 
 
-    });}
+    });
+
+    }
 
 }
