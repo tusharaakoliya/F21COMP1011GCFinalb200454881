@@ -39,5 +39,4 @@ public class Dealership {
         this.stock = stock;
     }
 
-
 }
