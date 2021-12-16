@@ -36,10 +36,6 @@ public class InventoryPriceController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        Dealership dealership
-                = Utility.getDealershipDataFromJson();
-
-        System.out.println(dealership.getStock());
     }
 
 
